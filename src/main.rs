@@ -1,9 +1,9 @@
 use rand::prelude::*;
-use rand_dist::StandardNormal;
+use rand_distr::StandardNormal;
 use rayon::prelude::*;
 use stars::distribution::{ContinuousCDF, Normal};
 use std::f64::consts::E;
-use sdt::time::Instant;
+use std::time::Instant;
 
 pub enum OptionType {
     Call,
@@ -71,5 +71,5 @@ impl EuropeanOption {
 }
 
 fn main() {
-    println!("Hello, world!");
+
 }
